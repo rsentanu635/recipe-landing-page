@@ -1,0 +1,126 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+img {
+    width: 95%;
+    border-radius: 15px;
+}
+
+#main {
+background-color: hsl(0, 0%, 100%);
+border-radius: 15px;
+height: 100%;
+width: 43%;
+margin: auto;
+padding: 5vh 5vh 5vh 5vh;
+position: relative;
+}
+
+#prep {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 1vh 5vh .5vh 5vh;
+
+}
+
+.section {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+h1 {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+ul {
+padding-left: 20px;
+}
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+    line-height: 1.6;
+
+  }
+
+ol li:before {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    content: counter(list) ".";
+    left:-36px;
+    position: absolute;
+}
+
+li {
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+th {
+    font-weight: normal;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    font-family: "Outfit", sans-serif;
+
+}
+
+th, td {
+    padding: 20px 0px 15px 0px;
+}
+
+th {
+    padding-left: 5vh;
+   }
+
+td {
+    padding: 0px 35vh 0px 35vh;
+    color: hsl(14, 45%, 36%);
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.description {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.emphasis {
+    font-weight: 700;
+}
+
+
+.attribution { font-size: 11px; text-align: center; padding-top: 5vh;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: 100%;
+    }
+}
+/* MOBILE INTERFACE ^^^*/
+/* DESKTOP INTERFACE vvv*/
+@media only screen and (max-width: 1440px) {
+
+}
